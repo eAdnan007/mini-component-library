@@ -13,6 +13,14 @@ const Wrapper = styled.div`
   border-radius: 8px;
   padding: 12px 52px 16px 12px;
 
+  &:focus-within {
+    outline: 2px solid ${COLORS.primary};
+  }
+
+  &:hover {
+    color: ${COLORS.black};
+  }
+
   select {
     position: absolute;
     top: 0;
